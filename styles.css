@@ -1,0 +1,93 @@
+body {
+  font-family: "Mansalva", cursive;
+}
+div {
+  text-align: center;
+}
+
+.game--title {
+  font-size: 3rem;
+  color: #1070a4;
+}
+.center-items {
+  margin-top: 10vh;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-div,
+.middle-div,
+.bottom-div {
+  display: flex;
+}
+
+.firstDiv,
+.secondDiv,
+.thirdDiv {
+  width: 12vw;
+  height: 12vh;
+  text-align: center;
+  border: solid 8px #1070a4;
+  padding-top: 20px;
+}
+
+.firstDiv,
+.secondDiv,
+.thirdDiv {
+  border-bottom: none;
+}
+.secondDiv,
+.thirdDiv {
+  border-left: none;
+}
+
+.top-div .firstDiv,
+.top-div .secondDiv,
+.top-div .thirdDiv {
+  border-top: none;
+}
+
+.bottom-div .firstDiv,
+.bottom-div .secondDiv,
+.bottom-div .thirdDiv {
+  border-bottom: none;
+}
+
+.top-div .firstDiv,
+.middle-div .firstDiv,
+.bottom-div .firstDiv {
+  border-left: none;
+}
+
+.top-div .thirdDiv,
+.middle-div .thirdDiv,
+.bottom-div .thirdDiv {
+  border-right: none;
+}
+
+.game--restart {
+  border: none;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  background-color: #1070a4;
+  color: white;
+}
+.game--restart:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.playerMove {
+  cursor: pointer;
+}
